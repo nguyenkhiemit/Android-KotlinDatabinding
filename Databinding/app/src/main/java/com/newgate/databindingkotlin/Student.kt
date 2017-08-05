@@ -2,6 +2,7 @@ package com.newgate.databindingkotlin
 
 import android.databinding.BaseObservable
 import android.databinding.Bindable
+import android.databinding.BindingAdapter
 import android.widget.ImageView
 import kotlinx.android.synthetic.main.layout_item_student.*
 
@@ -46,6 +47,5 @@ data class Student(
             _urlAvatar = value
             notifyPropertyChanged(BR.urlAvatar)
         }
-
 
 }
